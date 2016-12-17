@@ -1,0 +1,11 @@
+Symlink to make directory between pi and Edison compatible
+
+if you like me wont to use Raspberry Pi and Edison in a opeanaps farm und use RasPi Check Android App to control you rig then you have to install openaaps on every system in same directory or make symlink
+
+I choose Pi directory structure as my primary an make symlink on Edison:
+
+ssh to Edison:
+cd /home/ 
+sudo ln -s /home/edison /home/pi
+
+now you can you your command across every rig
